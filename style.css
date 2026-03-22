@@ -1,2 +1,26 @@
 /* stylesheet */
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    color: white;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 12px;
+    font-weight: 300;
+}
