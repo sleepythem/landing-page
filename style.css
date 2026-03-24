@@ -3,8 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
@@ -119,8 +117,9 @@ img {
 }
 
 .four {
-    height: 140px;
+    height: 112px;
     width: 774px;
+    margin: 64px 0;
     background-color: #3882F6;
     border-style: solid;
     border-radius: 15px;
@@ -131,7 +130,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     color: white;
 }
 
@@ -153,6 +151,15 @@ button {
     border-color: white;
     padding: 4px 22px;
     border-width: 2px;
-    
-    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 12px 0;
+
+    background: #1f2937;
+    color: white;
 }
