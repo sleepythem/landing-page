@@ -80,9 +80,39 @@ img {
     align-items: center;
     gap: 24px;
     margin: 16px 0;
+    padding: 64px 0;
+    max-height: 240px;
 }
 
 .title {
     font-size: 20px;
     font-weight: 800;
 }
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.quote {
+    width: 774px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: left;   
+    margin: 0 0 4px 0;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    width: 774px;
+    margin: 0;
+    
+}
+
