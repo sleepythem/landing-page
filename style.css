@@ -28,7 +28,12 @@ ul {
 }
 
 img {
-    width: 220px;
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #3882F6;
+    border-width: 2px;
 }
 
 
@@ -51,4 +56,33 @@ img {
 .one-right {
     display: flex;
     
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    max-width: 680px;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.info {
+    max-width: 118px;
+    text-align: center;
+    
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 16px 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 800;
 }
