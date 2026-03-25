@@ -161,6 +161,7 @@ img {
     gap: 52px;
     margin: 120px;
     width: 774px;
+    flex-shrink: 0;
 }
 
 .header-title {
